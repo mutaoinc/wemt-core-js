@@ -2,7 +2,7 @@
   "name": "@wemt/core",
   "version": "1.0.0",
   "type": "module",
-  "description": "WEMT core library",
+  "description": "Wemt core library",
   "main": "index.js",
   "module": "index.js",
   "types": "index.d.ts",
