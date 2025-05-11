@@ -1,0 +1,46 @@
+{
+  "name": "@wemt/core",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "WEMT core library",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "dist",
+    "src",
+    "docs",
+    "LICENSE",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mutaoinc/wemt-core-js.git"
+  },
+  "keywords": [
+    "wemt"
+  ],
+  "author": "wemt",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "build:dev": "rollup -c -w"
+  },
+  "dependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "axios": "^1.7.9",
+    "crypto-js": "^4.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "rollup": "^4.9.0",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-json": "^6.1.0"
+  }
+}
